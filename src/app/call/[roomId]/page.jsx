@@ -1157,7 +1157,12 @@ export default function CallRoom({ params }) {
     setCallStatus("ended");
     setTimeout(() => {
       // router.push(user?.role === 'Student' ? "/studentdashboard" : "/scribedashboard");
-      alert(user?.role)
+      // alert(user?.role)
+      if(user.role == 'Student'){
+        router.push("/studentdashboard");
+      }else{
+        router.push('/scribedashboard');
+      }
     }, 1000);
   };
 
