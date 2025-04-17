@@ -73,6 +73,40 @@ export default function Home() {
             <ChevronDown size={16} />
           </div>
         </div>
+        <footer className="bg-gray-100 border-t mt-12">
+        <div className="container mx-auto px-4 py-8">
+          {/* <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div>
+              <h4 className="font-bold text-gray-900 mb-4">Contact Us</h4>
+              <address className="text-gray-600 not-italic">
+                Ministry of Education<br />
+                Shastri Bhawan, New Delhi<br />
+                Pin Code - 110001
+              </address>
+            </div>
+            <div>
+              <h4 className="font-bold text-gray-900 mb-4">Quick Links</h4>
+              <ul className="space-y-2">
+                <li><a href="#" className="text-gray-600 hover:text-blue-600">Terms & Conditions</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-blue-600">Privacy Policy</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-blue-600">Accessibility Statement</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold text-gray-900 mb-4">Connect With Us</h4>
+              <div className="flex gap-4">
+                <a href="#" className="text-gray-600 hover:text-blue-600">Facebook</a>
+                <a href="#" className="text-gray-600 hover:text-blue-600">Twitter</a>
+                <a href="#" className="text-gray-600 hover:text-blue-600">YouTube</a>
+              </div>
+            </div>
+          </div> */}
+          <div className="text-center border-t border-gray-200 pt-6">
+            <p className="text-gray-600 mb-2">© 2024 VidyaSetu - Ministry of Education, Government of India</p>
+            <p className="text-sm text-gray-500">Developed by Students of IIIT Bhopal</p>
+          </div>
+        </div>
+      </footer>
       </main>
     </div>
   );
